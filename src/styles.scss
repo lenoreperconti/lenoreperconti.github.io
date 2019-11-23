@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+.lora {
+    font-family: 'Lora', serif;
+}
+
+.merriweather {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bg-blue {
+    background-color: #52747F;
+}
+
+.round-5 {
+    border-radius: 5px;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-15 {
+    padding: 15px;
+}
+
+.color-white {
+    color: white !important;
+}
+
+.hero {
+    position: sticky;
+  }
+  
+.hero::after {
+    content: "";
+    background: url('./assets/bg.jpg');
+    opacity: 0.60;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+    background-size: cover; 
+}
+
+/**
+ * Smooth scrolling inside an element
+ */
+ #about-me {
+	scroll-behavior: smooth;
+}
+
+/**
+ * Smooth scrolling on the whole document
+ */
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
