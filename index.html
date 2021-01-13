@@ -3,7 +3,6 @@
     <meta charset="utf-8">
     <!-- Page description -->
     <title>Gorge Talent and Development Resoures</title>
-    <base href="/">
     <!-- For "teaching" the browser how to display and present the page -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- Describing the page -->
@@ -16,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:700|Merriweather+Sans:300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -27,37 +27,35 @@
     <head>
         <meta charset="utf-8">
         <title>Lenore</title>
-        <base href="/">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="favicon.ico">
     <body>
         <!-- Main navigation -->
-        <header>
-            <!--Navbar-->
-            <mdb-navbar SideClass="navbar navbar-expand-lg navbar-light white">
-                <!-- Collapsible content -->
-                <links>
-                    <!-- Links -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand lora wow fadeInLeft" href="#">
+                <img src="./assets/logo.png" height="60" alt="logo">
+                Lenore Perconti Consulting
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="navbar-brand lora wow fadeInLeft" href="#">
-                            <img src="./assets/logo.png" height="60" alt="logo">
-                            Gorge Talent and Development Services
-                            </a>
+                            <a href="#about-me" mdbBtn class="nav-link wow fadeInRight" type="button" color="dark" mdbWavesEffect>Contact Me</a>
                         </li>
                     </ul>
-                    <!-- Links -->
-                    <!-- Contact Me -->
-                    <a href="#about-me" mdbBtn class="bg-blue pad-10 round-5 color-white wow fadeInRight" type="button" color="dark" mdbWavesEffect>Contact Me</a>
-                </links>
-                <!-- Collapsible content -->
-            </mdb-navbar>
-        </header>
-        <div class="text-white text-center rgba-stylish-strong py-5 px-4 hero view overlay rounded z-depth-2 mb-lg-0 mb-4 waves-light">
-            <div class="py-5">
-                <!-- Content -->
-                <h3 class="card-title h3 my-4 py-2 lora wow fadeIn">Custom Recruiting and Human Resources Services for the Gorge.</h3>
-                <p class="mb-4 pb-2 px-md-5 mx-md-5 merriweather wow fadeIn">Seasonal / outdoor / recreational</p>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4 text-center text-white">Sexual Harassment Workshops for non-traditional Workplaces.</h1>
+                <p class="lead text-center text-white">Seasonal / outdoor / recreational</p>
+                <p class="lead text-center">
+                    <a class="btn btn-primary btn-lg" href="#about-me" role="button">Learn more</a>
+                </p>
             </div>
         </div>
         <div class="container">
@@ -81,13 +79,11 @@
                     <!-- Grid column -->
                     <div class="col-lg-7 wow fadeIn">
                         <!-- Post title -->
-                        <h5 class="font-weight-bold mb-3 lora">Custom recruiting, human resources and workplace education resources.</h5>
+                        <h5 class="font-weight-bold mb-3 lora">Custom sexual harassment training for outfitters and seasonal businesses.</h5>
                         <!-- Excerpt -->
-                        <p class="merriweather">The hiring process simplified for small business owners.
+                        <p class="merriweather">As an energetic and creative presenter, I take this awkward and complicated topic and make it relatable and relevant to your workplace.
                             <br><br>
-                            Interactive workforce training that engages particpants and translates to the workplace.
-                            <br><br>
-                            Human Resources consluting for small businesses.
+                            My training is interactive. Participants are engaged in discussions and scenarios that are relevant to their work and culture. Inclusive behaviors for the workplace are exemplified and practiced.
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -99,14 +95,14 @@
             <!--Section: Features v.2-->
             <section class="text-center">
                 <!--Section heading-->
-                <h3 class="h3 font-weight-bold my-5 lora wow fadeInUp">Sexual Harassment and Civility Training: Why Try a Customized Approach</h3>
+                <h3 class="h3 font-weight-bold my-5 lora wow fadeInUp">Why Try a Customized Approach?</h3>
                 <!--Grid row-->
                 <div class="row text-left wow fadeInUp">
                     <!--Grid column-->
                     <div class="col-md-4 mb-4">
                         <div class="col-12">
                             <h4 class="lora">Traditional Training is Broken</h4>
-                            <p class="grey-text merriweather">Your team doesn't relate to canned sexual harassment videos, irrelevant content, or presenters unfamilliar with your culture. </p>
+                            <p class="grey-text merriweather">Your guides and employees don’t relate to canned sexual harassment videos, irrelevant content, or presenters from outside the industry. </p>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -122,7 +118,7 @@
                     <div class="col-md-4 mb-4 wow fadeInUp">
                         <div class="col-12">
                             <h4 class="lora">Holistic Approach</h4>
-                            <p class="grey-text merriweather">From policy and process building to leadership training, equip your team to support the people who make your business run.</p>
+                            <p class="grey-text merriweather">From policy building to supervisor training, we equip your leadership team to support the people who make your business run: your employees.</p>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -136,54 +132,28 @@
                 <!-- Section heading -->
                 <h3 class="h3 font-weight-bold my-5 lora text-center wow fadeInUp">About me</h3>
                 <!-- Section description -->
-                <p class="text-center w-responsive mx-auto mb-5 merriweather wow fadeInUp">I am a Human Resources professional with experience including high volume recruiting and onboarding, small business consulting, workplace investigations, policy buidling, coaching and correction, performance apprasials, HR practices, labor law compliance and more. My experience includes many industries including the trades, resturaunts and bars, outdoor tourism, retail and service.
-                <p class="text-center w-responsive mx-auto mb-5 merriweather wow fadeInUp">Contact me for a free consultation
+                <p class="text-center w-responsive mx-auto mb-5 merriweather wow fadeInUp">I am a Human Resources professional with ten seasons’ experience guiding on Idaho and Oregon rivers. My experience puts me in a unique position to provide relatable, relevant sexual harassment training to the outfitting industry.
                 </p>
                 <!-- Grid row -->
                 <div class="row">
                     <!-- Grid column -->
                     <div class="col-md-12 mb-md-0 mb-5 wow fadeInUp">
-                        <form action="https://formspree.io/hello@lenoreperconti.com" method="POST">
-                            <!--Grid row-->
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form">
-                                        <input name="name" placeholder="your name" type="text" id="contact-name" class="form-control merriweather">
-                                    </div>
+                        <form>
+                            <div class="form-row">
+                                <div class="col">
+                                    <label for="exampleFormControlInput1">Your Name</label>
+                                    <input id="exampleFormControlInput1" type="text" class="form-control" placeholder="" name="name" >
                                 </div>
-                                <!--Grid column-->
-                                <!--Grid column-->
-                                <div class="col-md-6">
-                                    <div class="md-form">
-                                        <input placeholder="your email" type="text" id="contact-email" class="form-control merriweather" name="_replyto">
-                                    </div>
-                                </div>
-                                <!--Grid column-->
-                            </div>
-                            <!--Grid row-->
-                            <!--Grid row-->
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="md-form">
-                                        <input name="subject" type="text" id="contact-Subject" class="form-control merriweather" placeholder="subject">
-                                    </div>
+                                <div class="col">
+                                    <label for="exampleFormControlInput1">Email address</label>
+                                    <input id="exampleFormControlInput1" type="text" class="form-control" placeholder="" name="_replyto">
                                 </div>
                             </div>
-                            <!--Grid row-->
-                            <!--Grid row-->
-                            <div class="row">
-                                <!--Grid column-->
-                                <div class="col-md-12">
-                                    <div class="md-form">
-                                        <textarea name="message" placeholder="your message" type="text" id="contact-message" class="form-control md-textarea merriweather" rows="3"></textarea>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Your Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" ></textarea>
                             </div>
-                            <!--Grid row-->
-                            <div class="text-center text-md-right">
-                                <input mdbBtn class="bg-blue pad-15 round-5 color-white merriweather" type="submit" value="Submit" color="dark" mdbWavesEffect>
-                            </div>
+                            <button type="submit" value="Submit" class="btn btn-primary">Submit</button>
                         </form>
                     </div>
                     <!-- Grid column -->
@@ -225,7 +195,7 @@
                 <!-- Grid row -->
             </div>
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3 wow fadeInUp">© 2020 Copyright:
+            <div class="footer-copyright text-center py-3 wow fadeInUp">© 2021 Copyright:
                 <a href="https://www.lenoreperconti.com/"> Lenore Perconti</a>
             </div>
             <!-- Copyright -->
