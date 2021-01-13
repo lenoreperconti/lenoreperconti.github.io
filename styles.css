@@ -2,6 +2,11 @@
 
 
 .jumbotron {
-  background-image: url("./assets/hero.JPG");
+  background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)),  url("./assets/hero.JPG");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  height: 800px;
+  padding-top: 250px;
 }
